@@ -1,0 +1,10 @@
+#### using rest client, post a request to add a new movie to the Server 
+POST http://localhost:3000/movies 
+Content-Type: application/json
+
+{
+    "id": 4,
+    "title": "All Quiet on the Western Front",
+    "director": "Edward Berger",
+    "year": 2022
+}
